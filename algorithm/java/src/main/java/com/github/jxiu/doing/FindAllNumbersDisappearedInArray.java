@@ -17,4 +17,20 @@ public class FindAllNumbersDisappearedInArray {
         }
         return r;
     }
+
+    /**
+     *
+     * [4,3,2,7,8,2,3,1]
+     * [7,3,2,4,8,2,3,1]
+     * [-1,2,3,4,8,2,7,1]
+     * [-1,2,3,4,1,2,7,8]
+     * [1,2,3,4,-1,-1,7,8]
+     * @param nums
+     * @return
+     */
+    public List<Integer> solution(int[] nums){
+
+        List<Integer> result = new ArrayList<>();
+        return result;
+    }
 }
