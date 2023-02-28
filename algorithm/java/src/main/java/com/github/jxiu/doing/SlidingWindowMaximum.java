@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
  * 239. 滑动窗口最大值
  */
 public class SlidingWindowMaximum {
-    public int[] maxSlidingWindow1(int[] nums, int k) {
+//    public int[] maxSlidingWindow1(int[] nums, int k) {
         // TODO
 //        ArrayDeque<Integer> deque = new ArrayDeque();
 //        List<Integer> ans = new ArrayList<>();
