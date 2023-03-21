@@ -23,7 +23,8 @@ class MinimumPathSumTest {
 
     static Stream<Arguments> successTest(){
         return Stream.of(
-                Arguments.of(new int[][]{{1,3,1},{1,5,1},{4,2,1}},11)
+                Arguments.of(new int[][]{{1,3,1},{1,5,1},{4,2,1}},7),
+                Arguments.of(new int[][]{{1,2,3},{4,5,6}},12)
         );
     }
 
