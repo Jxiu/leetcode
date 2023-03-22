@@ -7,6 +7,7 @@ import java.util.Arrays;
  */
 public class HouseRobber {
 
+    //TODO 空间压缩
     public int rob(int[] nums) {
         // len = 1 ，max(n1,0)
         // len = 2 ，max(n1,n2)

@@ -5,6 +5,7 @@ package com.github.jxiu.doing;
  */
 public class MinimumPathSum {
 
+    //TODO 空间压缩
     public int minPathSum(int[][] grid) {
         // 数组中数字都是非负数，初始化dp数组
         int N = grid.length; int IN = N == 0 ? 0 : grid[0].length;
