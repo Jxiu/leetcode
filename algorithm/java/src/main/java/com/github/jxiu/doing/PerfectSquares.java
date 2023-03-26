@@ -7,6 +7,7 @@ package com.github.jxiu.doing;
  */
 public class PerfectSquares {
 
+    // TODO 测试
     public int numSquares(int n) {
 //        Double i  = Math.sqrt(n);
 //        Math.floor(i);
