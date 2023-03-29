@@ -8,7 +8,7 @@ public class ArrayUtil {
      * 打印二维矩阵
      */
     public static void printMatrix(int[][] matrix){
-        int N = matrix.length, L = N == 0 ? 0 : matrix.length;
+        int N = matrix.length, L = N == 0 ? 0 : matrix[0].length;
         StringBuilder sb = new StringBuilder();
         sb.append("\n");
         for (int i = 0; i < N; i++) {

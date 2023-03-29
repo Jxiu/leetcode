@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 300. 最长递增子序列(medium)
+ * TODO 二分法优化
  */
 public class LongestIncreasingSubsequence {
 
