@@ -21,8 +21,8 @@ class ZeroOnePackTest {
 
     static Stream<Arguments> test(){
         return Stream.of(
-//                Arguments.of(new int[]{1,2,1},new int[]{2,2,2},2,1, 2),
-//                Arguments.of(new int[]{1,3,1},new int[]{2,2,2},3,1, 2),
+                Arguments.of(new int[]{1,2,1},new int[]{2,2,2},2,1, 2),
+                Arguments.of(new int[]{1,3,1},new int[]{2,2,2},3,1, 2),
                 Arguments.of(new int[]{1,2,1},new int[]{2,2,2},3,2, 4)
         );
     }
