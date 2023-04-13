@@ -68,7 +68,24 @@ public class ReverseLinkedList {
     }
 
     /**
-     * TODO 使用指针实现
+     * 1,2,3
+     * 指针实现
+     * @param head
+     * @return
+     */
+    public ListNode reverseList_ptr(ListNode head) {
+        ListNode prev = null, next;
+        while (head != null){
+            next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+
+    /**
+     *  递归实现
      * @param head
      * @return
      */

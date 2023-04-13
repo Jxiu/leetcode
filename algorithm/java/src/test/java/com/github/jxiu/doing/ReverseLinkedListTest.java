@@ -20,7 +20,8 @@ class ReverseLinkedListTest {
             copy[copy.length-i-1] = temp;
         }
         System.out.println(ReverseLinkedList.ListNode.valueOf(copy));
-        Assertions.assertEquals(ReverseLinkedList.ListNode.valueOf(copy),new ReverseLinkedList().reverseList(ReverseLinkedList.ListNode.valueOf(in)));
+//        Assertions.assertEquals(ReverseLinkedList.ListNode.valueOf(copy),new ReverseLinkedList().reverseList(ReverseLinkedList.ListNode.valueOf(in)));
+        Assertions.assertEquals(ReverseLinkedList.ListNode.valueOf(copy),new ReverseLinkedList().reverseList_ptr(ReverseLinkedList.ListNode.valueOf(in)));
     }
 
     static Stream<Arguments> test(){
